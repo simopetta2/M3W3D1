@@ -101,7 +101,7 @@ nav ion-icon {
 .card{
     box-shadow: -1px 8px 16px 3px #1a1a1a29;
 cursor: pointer;
-
+height: 100%;
 }
 .card:hover{
     transform: scale(1.02);
