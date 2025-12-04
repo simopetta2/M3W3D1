@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-.container-color {
+.container-color, footer {
     background-color: #F5F4F8;
 }
 
@@ -98,6 +98,15 @@ nav ion-icon {
     padding-top: 5px;
     padding-right: 5px;
 }
+.card{
+    box-shadow: -1px 8px 16px 3px #1a1a1a29;
+cursor: pointer;
+
+}
+.card:hover{
+    transform: scale(1.02);
+    
+}
 
 .hour p {
     padding-right: 15px;
@@ -161,4 +170,21 @@ justify-content: space-around;
 .account-course ion-icon{
     padding-left: 40px;
     
+}
+.bottom-banner{
+    justify-content: space-around;
+    align-items: center;
+}
+.terms p{
+    margin:20px;
+    cursor: pointer;
+}
+.rights{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.container-color container{
+    border-bottom: 1px solid black;
+    cursor: pointer;
 }
