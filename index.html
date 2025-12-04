@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="#">Browse <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#">Landing <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="#">Pages <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accounts <ion-icon name="chevron-down-outline"></ion-icon>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <div class="container-account d-flex align-items-center ">
+                    <div class="notify nav-item dropdown"><ion-icon name="notifications-outline"></ion-icon></div>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="account"><img class="avatar" src="assets/avatar-1.jpg" alt="account img"></div>
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron-wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="jumbotron container-fluid py-5 col-12 col-md-6">
+                    <h1 class="display-5 fw-bold">Welcome Web Students!</h1>
+                    <p class="fs-4">Hand-picked Instructor and expertly crafted <br>
+                        courses, designed for the modern students and <br>
+                        entrepreneur. </p>
+                    <button type="button" class="btn btn-success btn-lg p-3">Browse Courses</button>
+                    <button type="button" class="btn btn-light btn-lg p-3">Are You Instructor</button>
+
+                </div>
+                <div class="image col-12 col-md-6">
+                    <img class="img-fluid" src="assets/hero-img.png" alt="back-image">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="back-popup">
+        <div class="container">
+            <div class="row">
+
+                <div class="popup col-12 col-md-4 col-xl-4 d-flex ">
+                    <ion-icon name="videocam-outline"></ion-icon>
+                    <div class="courses ">
+                        <h5>30,000 online courses</h5>
+                        <p>Enjoy a variety of fresh topics</p>
+                    </div>
+                </div>
+                <div class="popup col-12 col-md-4 col-xl-4 d-flex ">
+                    <ion-icon name="videocam-outline"></ion-icon>
+                    <div class="instruction">
+
+                        <h5>Expert instruction</h5>
+                        <p>Find the right instructor for you</p>
+                    </div>
+                </div>
+                <div class="popup col-12 col-md-4 col-xl-4 d-flex ">
+                    <ion-icon name="videocam-outline"></ion-icon>
+                    <div class="access">
+
+                        <h5>Lifetime access</h5>
+                        <p>Learn on your schedule</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-color">
+        <div class="container">
+            <div class="title_recommended">
+                <h5>Recommended to you</h5>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">GraphQL: introduction to
+                                graphQL for beginners</h5>
+                            <div class="hour d-flex">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 40m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>2.5<span class="rating-number ms-2 text-muted">(1,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$500 <span
+                                    class="discount text-muted line-through ">$600</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Complete Beginner's
+                                Guide to JavaScript</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">4h 10m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>3.5<span class="rating-number ms-2 text-muted">(7,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$700 <span
+                                    class="discount text-muted line-through ">$850</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginning Node.js, Express
+                                & MongoDB Development</h5>
+                            <div class="hour d-flex  ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 00m</p>
+                                <img src="icons/due-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+
+
+                            <p>4.5<span class="rating-number ms-2 text-muted">(15,700)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$800 <span
+                                    class="discount text-muted line-through ">$950</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laravel: The Ultimate
+                                Beginner's Guide to Learn</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">1h 00m</p>
+                                <img src="icons/barra-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <p>4.5<span class="rating-number ms-2 text-muted">(2,500)</span></p>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$170 <span
+                                    class="discount text-muted line-through ">$220</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-color">
+    <div class="container">
+            <div class="title_recommended">
+                <h5>Recommended to you</h5>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">GraphQL: introduction to
+                                graphQL for beginners</h5>
+                            <div class="hour d-flex">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 40m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>2.5<span class="rating-number ms-2 text-muted">(1,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$500 <span
+                                    class="discount text-muted line-through ">$600</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Complete Beginner's
+                                Guide to JavaScript</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">4h 10m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>3.5<span class="rating-number ms-2 text-muted">(7,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$700 <span
+                                    class="discount text-muted line-through ">$850</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginning Node.js, Express
+                                & MongoDB Development</h5>
+                            <div class="hour d-flex  ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 00m</p>
+                                <img src="icons/due-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+
+
+                            <p>4.5<span class="rating-number ms-2 text-muted">(15,700)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$800 <span
+                                    class="discount text-muted line-through ">$950</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laravel: The Ultimate
+                                Beginner's Guide to Learn</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">1h 00m</p>
+                                <img src="icons/barra-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <p>4.5<span class="rating-number ms-2 text-muted">(2,500)</span></p>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$170 <span
+                                    class="discount text-muted line-through ">$220</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+
+    <div class="container-color">
+     <div class="container">
+            <div class="title_recommended">
+                <h5>Recommended to you</h5>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">GraphQL: introduction to
+                                graphQL for beginners</h5>
+                            <div class="hour d-flex">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 40m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>2.5<span class="rating-number ms-2 text-muted">(1,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$500 <span
+                                    class="discount text-muted line-through ">$600</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Complete Beginner's
+                                Guide to JavaScript</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">4h 10m</p>
+                                <img src="icons/tre-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+                            <ion-icon name="star-outline" class="star-empty"></ion-icon>
+
+                            <p>3.5<span class="rating-number ms-2 text-muted">(7,500)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$700 <span
+                                    class="discount text-muted line-through ">$850</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="card">
+                        <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginning Node.js, Express
+                                & MongoDB Development</h5>
+                            <div class="hour d-flex  ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">2h 00m</p>
+                                <img src="icons/due-barre-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex ">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+
+
+
+                            <p>4.5<span class="rating-number ms-2 text-muted">(15,700)</span></p>
+                        </div>
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$800 <span
+                                    class="discount text-muted line-through ">$950</span></p>
+                            <hr>
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laravel: The Ultimate
+                                Beginner's Guide to Learn</h5>
+                            <div class="hour d-flex ">
+                                <ion-icon name="time-outline"></ion-icon>
+                                <p class="card-text">1h 00m</p>
+                                <img src="icons/barra-blu.svg" alt="">
+                                <p>Advance</p>
+                            </div>
+                        </div>
+                        <div class="rating d-flex">
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star" class="star-full"></ion-icon>
+                            <ion-icon name="star-half-outline" class="star-half"></ion-icon>
+                            <p>4.5<span class="rating-number ms-2 text-muted">(2,500)</span></p>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="price-value fw-bold">$170 <span
+                                    class="discount text-muted line-through ">$220</span></p>
+                            <hr>
+                            
+                            <div class="account-course d-flex">
+                                <img src="assets/avatar-5.jpg" alt="">
+                                <p class="text-muted">Brooklyn Simmons</p>
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+}
+
+.container-color {
+    background-color: #F5F4F8;
+}
+
+
+.avatar {
+    border-radius: 100%;
+    width: 50px;
+}
+
+.notify {
+    padding: 13px 15px;
+    border-radius: 100%;
+    background-color: #F5F4F8;
+
+}
+
+.notify ion-icon {
+    width: 20px;
+    font-size: 20px;
+
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: auto;
+    right: 0;
+}
+
+.jumbotron-wrapper {
+    background-color: #7550FE;
+    width: 100%;
+
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron p {
+    color: #BCA8FF;
+}
+
+.btn-success {
+    background-color: #1ACB98;
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+nav ion-icon {
+    color: #9D768F;
+    vertical-align: middle;
+}
+
+.popup ion-icon {
+    padding: 20px;
+    border-radius: 100%;
+    color: #C28135;
+    background-color: #FFEEDA;
+    margin-right: 20px;
+
+}
+
+.popup {
+    padding-top: 20px;
+}
+
+.popup p {
+    color: #5C5776;
+}
+
+.back-popup {
+    border-bottom: 1px solid rgb(240, 238, 238);
+
+}
+
+.title_recommended {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.hour img {
+    padding-right: 5px;
+}
+
+.hour {
+    align-items: start;
+
+}
+
+.card ion-icon {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.hour p {
+    padding-right: 15px;
+    color: #5C5776;
+}
+
+.rating {
+    padding-left: 20px;
+
+}
+
+.rating p {
+    color: #FFC107;
+}
+
+.rating ion-icon {
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.star-full,
+.star-half {
+    color: #FFC107;
+}
+
+.rating-number {
+    font-size: 0.9rem;
+
+}
+
+.star-empty {
+    color: #FFC107;
+}
+
+.discount {
+    text-decoration: line-through;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.price-value {
+    font-size: 20px;
+}
+
+.account-course img {
+
+    border-radius: 100%;
+    width: 40px;
+}
+
+.account-course {
+justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.account-course p {
+    
+    padding-top: 10px;
+}
+.account-course ion-icon{
+    padding-left: 40px;
+    
+}
