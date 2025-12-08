@@ -2,9 +2,9 @@ body {
     background-color: white;
 }
 
-.container-color, footer {
+ .container-color, footer {
     background-color: #F5F4F8;
-}
+} 
 
 
 .avatar {
@@ -25,10 +25,10 @@ body {
 
 }
 
-.dropdown-menu[data-bs-popper] {
+/* .dropdown-menu[data-bs-popper] {
     left: auto;
-    right: 0;
-}
+    right: 0; */
+/* } */
 
 .jumbotron-wrapper {
     background-color: #7550FE;
@@ -59,6 +59,7 @@ nav ion-icon {
 }
 
 .popup ion-icon {
+    font-size: 20px;
     padding: 20px;
     border-radius: 100%;
     color: #C28135;
@@ -99,13 +100,14 @@ nav ion-icon {
     padding-right: 5px;
 }
 .card{
-    box-shadow: -1px 8px 16px 3px #1a1a1a29;
+   
 cursor: pointer;
 height: 100%;
+
 }
 .card:hover{
-    transform: scale(1.02);
-    
+    transform: scale(1.01);
+    box-shadow: -1px 8px 16px 3px #1a1a1a29;
 }
 
 .hour p {
@@ -168,8 +170,13 @@ justify-content: space-around;
     padding-top: 10px;
 }
 .account-course ion-icon{
-    padding-left: 40px;
-    
+  
+    font-size: 18px;
+        color: rgb(202, 202, 202);
+}
+.account-course ion-icon:hover{
+    color: grey;
+   
 }
 .bottom-banner{
     justify-content: space-around;
@@ -181,10 +188,5 @@ justify-content: space-around;
 }
 .rights{
     padding-top: 10px;
-    cursor: pointer;
-}
-
-.container-color container{
-    border-bottom: 1px solid black;
     cursor: pointer;
 }
